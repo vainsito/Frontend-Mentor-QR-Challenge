@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+.card-qr{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 320px;
+    height: 500px;
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+
+}
+.qr-container{
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 17px;
+}
+.qr-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.tittle-card{
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 16px;
+}
+
+.text-qr{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7d889e;
+    padding-left: 17px;
+    padding-right: 17px;
+
+}
